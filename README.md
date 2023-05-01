@@ -8,4 +8,4 @@
 EPPlus.Core --version 1.5.4
 ```
 
-<img src="/pictures/users.png" title="users"  width="800">
+<img src="/pictures/users.png" title="users"  width="600">

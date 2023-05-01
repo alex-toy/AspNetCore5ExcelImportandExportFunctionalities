@@ -1,0 +1,13 @@
+﻿@model IEnumerable<SampleExcel.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    <form asp-action="BatchUserUpload" asp-controller="User" enctype="multipart/form-data">
+        <label>Upload file</label>
+        <input id="BatchUsers" />
+        <button type="submit">Submit</button>
+    </form>
+</div>
